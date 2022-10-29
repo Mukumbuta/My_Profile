@@ -6,7 +6,7 @@ from rest_framework.decorators import api_view
 def profile_details(request):
     if request.method == 'GET':
         data = {
-            "slackUsername": "Emmanuel Simasiku",
+            "slackUsername": "Mukumbuta",
             "backend": True,
             "age": 30,
             "bio": "A passionate Software ddeveloper with a passionate to build programs that expedite the efficiency and effectiveness of organizatiomnal success. During my free time, I paint or watch movies"
